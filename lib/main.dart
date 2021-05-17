@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:palebeatz/screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       ),
      debugShowCheckedModeBanner: false,
      home: HomeScreen()
+     
     );
   }
 }
